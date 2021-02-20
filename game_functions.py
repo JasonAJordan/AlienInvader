@@ -135,12 +135,12 @@ def create_fleet(ai_settings, screen, ship, aliens):
                 row_number)
 
                 
-def update_screen(ai_settings, screen, stats, sb, ship, alien, bullets, play_button, ryan, ryan2):
+def update_screen(ai_settings, screen, stats, sb, ship, alien, bullets, play_button ): #ryan, ryan2
     """Update images on the screen and flip to the new screen."""
     screen.fill(ai_settings.bg_color)
     
-    ryan.blitme()
-    ryan2.blitme()
+    #ryan.blitme()
+    #ryan2.blitme()
     
     # Redraw all bullets behind ship and aliens.
     for bullet in bullets.sprites():
