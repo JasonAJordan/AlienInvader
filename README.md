@@ -7,3 +7,6 @@ Space is to shoot
 Right Arrow and Left Arrow will move the spaceship in their respected directions 
 Game over is when the player loses 3 lives, a live is lost when the alien ship touches the player.
 Players can shoot down the aliens for points, try to get as many points as possible. 
+
+
+(git test for windows)
